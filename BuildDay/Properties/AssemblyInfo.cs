@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Madhon")]
 [assembly: AssemblyProduct("BuildDay")]
-[assembly: AssemblyCopyright("Copyright © Madhon 2007")]
+[assembly: AssemblyCopyright("Copyright © Madhon 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -15,6 +15,3 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 [assembly: Guid("90216ede-c9ba-4e72-ad7f-cc38672897dd")]
-
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.10032.1719")]

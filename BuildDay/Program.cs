@@ -1,9 +1,21 @@
-using System;
+//-----------------------------------------------------------------------
+// <copyright file="Program.cs" company="Madhon">
+//     Company (c) 2015 Madhon
+// </copyright>
+//-----------------------------------------------------------------------
 
 namespace BuildDay
 {
+    using System;
+
+    /// <summary>
+    /// Main Entry point class
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// Main Entry point method
+        /// </summary>
         private static void Main()
         {
             string dayOfYear = DateTime.Now.DayOfYear.ToString("000");
