@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------
 // <copyright file="Program.cs" company="Madhon">
-//     Company (c) 2016 Madhon
+//     Company (c) 2015-2020 Madhon
 // </copyright>
 //-----------------------------------------------------------------------
 
@@ -11,15 +11,15 @@ namespace BuildDay
     /// <summary>
     /// Main Entry point class
     /// </summary>
-    internal class Program
+    public static class Program
     {
         /// <summary>
         /// Main Entry point method
         /// </summary>
-        private static void Main()
+        public static void Main()
         {
-            string dayOfYear = DateTime.Now.DayOfYear.ToString("000");
-            string year = DateTime.Now.ToString("yy");
+            var dayOfYear = DateTime.Now.DayOfYear.ToString("000");
+            var year = DateTime.Now.ToString("yy");
             Console.WriteLine("{0}{1:000}", year, dayOfYear);
         }
     }
