@@ -4,7 +4,7 @@
     <TargetFramework>net472</TargetFramework>
     <ApplicationIcon>calendar.ico</ApplicationIcon>
     <Company>Madhon</Company>
-    <Copyright>Madhon (c) 2015-202</Copyright>
+    <Copyright>Madhon (c) 2015-2020</Copyright>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>buildday.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
